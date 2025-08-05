@@ -2,3 +2,7 @@ title: My Awesome Site
 description: A simple Jekyll site with sidebar menu
 baseurl: "/Content" 
 url: "https://kondyubaba.github.io" # замените на ваш URL
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
